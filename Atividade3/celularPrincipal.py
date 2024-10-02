@@ -1,8 +1,8 @@
 from celular import Celular
 
 # Criação de dois objetos Celular com números e planos diferentes
-cliente1 = Celular(numero="123456789", plano="pré-pago")
-cliente2 = Celular(numero="987654321", plano="pós-pago")
+cliente1 = Celular(numero = "123456789", plano = "pré-pago")
+cliente2 = Celular(numero = "987654321", plano = "pós-pago")
 
 # Recarregar saldo para o cliente 1 (pré-pago)
 cliente1.recarregar(50)

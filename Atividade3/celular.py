@@ -36,7 +36,7 @@ class Celular:
             else:
                 print(f"Seu saldo atual é de {self.__saldo - chamada}")
         elif self.__plano == "pós-pago":
-            print(f"No final do mês o valor total a pagar será de R${chamada - self.__saldo}")
+            print(f"No final do mês o valor total a pagar será de R$ {chamada - self.__saldo}")
 
     #exibe os dados do usuário
     def exibirDados(self):
