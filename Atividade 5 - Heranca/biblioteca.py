@@ -6,7 +6,7 @@ class Biblioteca:
         self._numeroPagina = numeroPagina
 
     def detalhes(self):
-        print(f"O Livro escolhido foi {self._titulo} do escritor(a) {self._autor} no ano de {self._anoPublicacao} na qual {self._numeroPagina} páginas.")   
+        print(f"O item escolhido foi {self._titulo} do escritor(a) {self._autor} no ano de {self._anoPublicacao} na qual têm {self._numeroPagina} páginas.")   
         return self._titulo, self._autor, self._anoPublicacao, self._numeroPagina
     
     def calcularIdadeItem(self):
